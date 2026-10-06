@@ -1,8 +1,7 @@
 server:
-  server:
-    forward-headers-strategy: FRAMEWORK
-    servlet:
-#      context-path: /app
+  forward-headers-strategy: FRAMEWORK
+  servlet:
+    context-path: /app
 
 spring:
   application:
